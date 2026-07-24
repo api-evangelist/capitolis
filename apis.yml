@@ -1,8 +1,17 @@
 aid: capitolis
 name: Capitolis
-description: Capitolis is a company surfaced as a portfolio company of a16z, index-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Capitolis is a financial technology company for the capital markets that helps
+  banks and institutional investors optimize how capital is used across their
+  trading portfolios. Its two flagship offerings are a Capital Marketplace that
+  connects banks with origination capabilities to institutional providers of
+  capital, and a Portfolio Optimization service that offsets redundant and
+  offsetting derivatives positions to reduce capital requirements, counterparty
+  exposure, and systemic risk. By combining technology with financial expertise,
+  Capitolis aims to create a safer, more efficient financial system and broaden
+  access to more diversified pools of capital. The platform is delivered as a
+  secure, login-gated web application to regulated financial institutions rather
+  than as a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/capitolis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +20,30 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://capitolis.com/wp-content/uploads/2018/03/Capitolis-Logo.jpeg
 tags:
 - Company
+- Financial Services
+- Capital Markets
+- FinTech
+- Capital Optimization
+- Portfolio Optimization
+- Derivatives
+- Institutional Investing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://capitolis.com
+  url: https://capitolis.com
+- type: TermsOfService
+  url: https://capitolis.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://capitolis.com/privacy-policy/
+- type: Support
+  url: https://capitolis.com/contact/
+- type: Login
+  url: https://prod.capitolis.com/login
+- type: Blog
+  url: https://capitolis.com/category/thought-leadership/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/capitolis.com/
+- type: DomainSecurity
+  url: security/capitolis-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
