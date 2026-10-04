@@ -48,7 +48,7 @@ modified: '2026-07-18'
 image: https://capitolis.com/wp-content/uploads/2018/03/Capitolis-Logo.jpeg
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Fintech
 - Capital Optimization
@@ -64,6 +64,7 @@ tags_raw:
 - Portfolio Optimization
 - Derivatives
 - Institutional Investing
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
