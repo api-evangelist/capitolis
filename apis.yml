@@ -44,7 +44,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 image: https://capitolis.com/wp-content/uploads/2018/03/Capitolis-Logo.jpeg
 tags:
 - Company
@@ -72,6 +72,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://capitolis.com/feed/
+  type: BlogRSS
 - type: Website
   url: https://capitolis.com
 - type: TermsOfService
